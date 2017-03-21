@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <link rel="stylesheet" href="main.css">
+  </head>
+  <body ng-app="populationMonitorApp">
+
+    <div ng-controller="chartCtrl">
+      <p>Message : {{message}}</p>
+	  <center>
+		<svg id="svgPopulation" width="800" height="400"></svg>
+	  </center>
+    </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+  <script src="https://d3js.org/d3.v4.min.js"></script>
+  <script src="main.js"></script>
+  </body>
+</html>
