@@ -1,0 +1,17 @@
+Data is gathered from the following locations:
+
+List of countries:
+http://api.worldbank.org/countries/?per_page=500
+
+
+List of indicators:
+
+Total population: SP.POP.TOTL
+http://api.worldbank.org/countries/all/indicators/SP.POP.TOTL?date=2015:2015&per_page=500
+
+GDP per capita: NY.GDP.PCAP.CD
+http://api.worldbank.org/countries/all/indicators/NY.GDP.PCAP.CD?date=2015:2015&per_page=500
+
+Life Expectancy: SP.DYN.LE00.IN
+http://api.worldbank.org/countries/all/indicators/SP.DYN.LE00.IN?date=2015:2015&per_page=500
+
